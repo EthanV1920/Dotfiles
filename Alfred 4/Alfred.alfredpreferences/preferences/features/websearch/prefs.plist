@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>4BE83430-D6B8-4A2B-9FBD-EC9C6F962A9E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>bh</string>
+			<key>text</key>
+			<string>BH Photo Video</string>
+			<key>url</key>
+			<string>https://www.bhphotovideo.com/c/search?Ntt={query}&amp;N=0&amp;InitialSearch=yes&amp;sts=ma</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>onlyShowEnabledInPrefs</key>
+	<true/>
+</dict>
+</plist>
