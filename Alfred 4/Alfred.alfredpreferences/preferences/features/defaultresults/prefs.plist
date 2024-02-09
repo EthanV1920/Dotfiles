@@ -9,5 +9,7 @@
 		<string>features.websearch.custom.4BE83430-D6B8-4A2B-9FBD-EC9C6F962A9E.fallback</string>
 		<string>features.websearch.wolfram.fallback</string>
 	</array>
+	<key>showPreferences</key>
+	<false/>
 </dict>
 </plist>
