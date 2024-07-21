@@ -15,3 +15,5 @@ require('mason-lspconfig').setup({
 		lsp_zero.default_setup,
 	},
 })
+require("mason-nvim-dap").setup()
+require'lspconfig'.tsserver.setup {}
