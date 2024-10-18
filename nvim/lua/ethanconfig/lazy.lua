@@ -22,14 +22,17 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
-require("lazy").setup({
-  spec = {
-    -- import your plugins
-    { import = "plugins" },
-  },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
-  -- automatically check for plugin updates
-  checker = { enabled = true },
-})
+require("lazy").setup({ {import = "ethanconfig.plugins"}, { "rose-pine/neovim", name = "rose-pine" }})
+vim.cmd('colorscheme rose-pine')
+
+-- require("lazy").setup({
+--   spec = {
+--     -- import your plugins
+--     { import = "ethanconfig.plugins" },
+--   },
+--   -- Configure any other settings here. See the documentation for more details.
+--   -- colorscheme that will be used when installing plugins.
+--   install = { "rose-pine/neovim", name = "rose-pine" },
+--   -- automatically check for plugin updates
+--   checker = { enabled = true },
+-- })
